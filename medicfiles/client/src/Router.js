@@ -22,6 +22,10 @@ import BlueSmoke from './components/flowchart/BlueSmoke';
 import WhiteSmoke from './components/flowchart/WhiteSmoke';
 import WhiteSmokeOne from './components/flowchart/WhiteSmokeOne';
 import WhiteSmokeTwo from './components/flowchart/WhiteSmokeTwo';
+import AtIdle from './components/flowchart/AtIdle';
+import HighwaySpeeds from './components/flowchart/HighwaySpeeds';
+import SmellOne from './components/flowchart/SmellOne';
+import SmellTwo from './components/flowchart/SmellTwo';
 
 
 const App = (props) => 
@@ -50,6 +54,10 @@ const App = (props) =>
 				<Route exact path={"/BlackSmokeOne"} component={BlackSmokeOne} />
 				<Route exact path={"/BlackSmokeTwo"} component={BlackSmokeTwo} />
 				<Route exact path={"/RoughEngine"} component={RoughEngine} />
+				<Route exact path={"/AtIdle"} component={AtIdle} />
+				<Route exact path={"/HighwaySpeeds"} component={HighwaySpeeds} />
+				<Route exact path={"/SmellOne"} component={SmellOne} />
+				<Route exact path={"/SmellTwo"} component={SmellTwo} />
 
 
 				</Switch>

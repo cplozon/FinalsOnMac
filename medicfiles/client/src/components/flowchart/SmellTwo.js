@@ -3,7 +3,7 @@ import ChartHeader from "./ChartHeader";
 import SidebarTwo from '../theme/SidebarTwo';
 import Footer from '../theme/Footer';
 
-class RoughEngine extends Component {
+class SmellTwo extends Component {
 	render(){
 		return (
 			<div>
@@ -19,12 +19,11 @@ class RoughEngine extends Component {
 											<div className="row" id="flowheading">
 												
 												<div className="col-6-md">
-													<h2>When Do You Experience This Problem?</h2>
+													<h2>Recommendation</h2>
 													<br />
-													<a href="/AtIdle" className="button submit" id="space">At Idle</a>
-													<br />
-													<a href="/HighwaySpeeds" className="button submit" id="space">At Highway Speeds</a>
-													
+													<h2>The drain pan of the A/C evaporator unit isn't draining.</h2> 
+													<h2>It is best to have an A/C specialist look at this, </h2>
+													<h2>as the clog may be further up in the system and difficult to access</h2>
 													<br />
 													<a href="/MainChart" className="button submit" id="space">Start Over</a>
 												<br />
@@ -51,6 +50,6 @@ class RoughEngine extends Component {
 	}
 }
 
-export default RoughEngine
+export default SmellTwo
 
 

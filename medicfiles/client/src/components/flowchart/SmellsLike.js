@@ -19,9 +19,9 @@ class SmellsLike extends Component {
 											<div className="row" id="flowheading">
 												
 												<div className="col-6-md">
-													<a href="/" className="button submit" id="space">Rotton Egg Smell</a>
+													<a href="/SmellOne" className="button submit" id="space">Rotton Egg Smell</a>
 												<br />
-													<a href="/" className="button submit" id="space">Musty/Moldy Smell From Vents And Poor Cooling</a>
+													<a href="/SmellTwo" className="button submit" id="space">Musty/Moldy Smell From Vents And Poor Cooling</a>
 												<br />
 													<a href="/MainChart" className="button submit">Start Over</a>
 												<br />
